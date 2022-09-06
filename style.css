@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.Imgs{
+    width: 150px;
+    height: 150px;
+    padding: 25px;
+    border-radius: 100%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+    padding-top: 50px;
+    flex-direction: column;
+    background: rgba(0,0,0,.87);
+    gap: 5px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    border-radius: 10px;
+    position: relative;
+    width: 350px;
+    height: 170px;
+    background: #5f6368;
+}
+.Mic_img{
+    position: absolute;
+    right: 5px;
+    border: 2px solid #808080a8;
+    background: #808080a8;
+    border-radius: 20px;
+}
+.Name{
+    position: absolute;
+    left: 5px;
+    BOTTOM: 2PX;
+}
+.bottomIcon{
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+    justify-content: space-around;
+    position: relative;
+}
+
+.timeAdress{
+    color: white;
+}
+
+.MIcon{
+    position: absolute;
+}
+.mIc{
+    fill: white;
+    border: 5px solid red;
+    background: red;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.V_icon,.C_Icon{
+    fill: white;
+    border: 5px solid #3e4339;
+    background: #3e4339;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.dis_button{
+    height: 30px;
+    width: 56px;
+    border: 3px solid red;
+    background: red;
+    fill: white;
+    border-radius: 15px;
+}
+.R_iCon{
+    fill: white;
+    margin-left: 10px;
+}
+.lIcon{
+    position: inherit;
+    right: -50px;
+}
+.timeAdress{
+    position: inherit;
+       right: 45px;
+}
